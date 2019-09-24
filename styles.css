@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main-content {
+    height: 65vh;
+    width: 100%;
+}
+
+.slide {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+  }
+  .slide1 {
+    display: block;
+    background-image:url("https://images.unsplash.com/photo-1539807010420-20c28057483f?ixlib=rb-0.3.5&s=d8023fcc0a7b4fe4848c5b9666ed66c3&auto=format&fit=crop&w=1050&q=80");
+  }
+  .slide2 {
+    display: none;
+    background-image:url("https://images.unsplash.com/photo-1523673681950-6750200c186a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c4c3de8dc28b30499b12210a6ac48087&auto=format&fit=crop&w=700&q=80");}
+  .slide3 {
+    display: none;
+    background-image:url("https://images.unsplash.com/photo-1505325681473-5e712b2eadca?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=42268883c25739c07af3d28d8f2030de&auto=format&fit=crop&w=967&q=80");
+  }
+  
+  .slide-content {
+      width: 100%;
+  }
+
+  .listing-info {
+    background-color:black;
+    height: 25vh;
+    width: 100%;
+    max-width: 900px;
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .contact-info {
+    height: 10vh;
+    width: 100%;
+}
+
+
+  .arrow {
+    position: absolute;
+    top: 35vh;
+    margin-top: -35px;
+    width:0;
+    height: 0;
+    border-style: solid;
+
+  }
+  #arrow-left {
+    border-width: 30px 40px 30px 0;
+    border-color: transparent #fff transparent transparent;
+    left: 0;
+    margin-left: 35px;
+  }
+  #arrow-right {
+    border-width: 30px 0px 30px 40px;
+    border-color: transparent transparent transparent #fff;
+    margin-right: 35px;
+    right: 0;
+  }
+  
+  .headshot {
+
+  }
